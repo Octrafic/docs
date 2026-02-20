@@ -64,6 +64,21 @@ octrafic -u https://api.example.com -s new-spec.yaml -n "Production API"
 # Prompts for confirmation if project exists
 ```
 
+## Saving Temporary Projects
+
+When working with a temporary project, the status bar shows a `[temp]` indicator. You can convert it to a named project at any time using `/save`:
+
+```
+/save my-api-project
+```
+
+This will:
+- Move project files to `~/.octrafic/projects/`
+- Save the full conversation history
+- Validate that the name isn't already taken
+
+If the name is already in use, Octrafic will let you know and prompt you to choose a different one.
+
 ## Storage
 
 **Named projects:** `~/.octrafic/projects/{project-uuid}/`

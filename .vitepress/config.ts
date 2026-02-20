@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Octrafic Documentation",
   description: "AI-powered CLI tool for API testing and exploration",
@@ -12,7 +11,6 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: 'https://octrafic.com/octrafic-logo.png',
     siteTitle: 'Octrafic',
 
@@ -36,12 +34,15 @@ export default defineConfig({
           { text: 'Project Management', link: '/guides/project-management' },
           { text: 'Providers', link: '/guides/providers' },
           { text: 'Authentication', link: '/guides/authentication' },
-          { text: 'PDF Reports', link: '/guides/reports' }
+          { text: 'PDF Reports', link: '/guides/reports' },
+          { text: 'Exporting Tests', link: '/guides/exports' },
+          { text: 'Headless Mode', link: '/guides/headless' }
         ]
       },
       {
         text: 'Release Notes',
         items: [
+          { text: 'v0.4.0', link: '/releases/v0.4.0' },
           { text: 'v0.3.4', link: '/releases/v0.3.4' },
           { text: 'v0.3.3', link: '/releases/v0.3.3' },
           { text: 'v0.3.2', link: '/releases/v0.3.2' },

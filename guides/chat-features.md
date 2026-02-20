@@ -71,10 +71,12 @@ Commands help you manage your session and access specific features.
 |---------|-------------|
 | `/clear` | Clear the conversation history in current session |
 | `/help` | Show available commands and usage tips |
+| `/save <name>` | Save the current temporary project with a name |
+| `/auto` | Toggle automatic test execution mode |
 | `/auth` | Open authentication wizard to configure API credentials |
 | `/models` | Select or change the AI model |
 | `/info` | Display current project information (URL, spec, auth) |
-| `/release-notes` | View latest Octrafic release notes |
+| `/release-notes` | View recent release notes (last 5 versions) |
 | `/logout` | Logout and clear the current session |
 | `/exit` | Exit the application |
 
