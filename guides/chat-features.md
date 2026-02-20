@@ -96,6 +96,22 @@ Commands help you manage your session and access specific features.
 > /release-notes
 ```
 
+## Auto Mode
+
+Auto mode skips the manual test confirmation prompt and runs tests immediately.
+
+Toggle it with the `/auto` command or the `--auto` flag when starting Octrafic:
+
+```bash
+octrafic --auto
+```
+
+```
+/auto
+```
+
+When active, the status bar shows an `Auto` indicator. Run `/auto` again to disable.
+
 ## Keyboard Shortcuts
 
 Efficient navigation and control using keyboard shortcuts.

@@ -46,6 +46,12 @@ export tests as pytest
 export to pytest and name it test_users_api.py
 ```
 
+Requires Python dependencies to run:
+
+```bash
+pip install pytest requests
+```
+
 ## Output location
 
 Files are saved to:
