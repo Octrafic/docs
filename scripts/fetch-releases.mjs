@@ -32,6 +32,5 @@ async function fetchReleases() {
 }
 
 fetchReleases().catch(err => {
-  console.error('Failed to fetch releases:', err.message)
-  process.exit(1)
+  console.warn(`Warning: could not fetch releases (${err.message}). Using existing files.`)
 })
