@@ -12,10 +12,6 @@ RUN npm install && npm cache clean --force
 # Copy source code
 COPY . .
 
-# Pass GitHub token for fetching releases
-ARG GITHUB_TOKEN
-ENV GITHUB_TOKEN=$GITHUB_TOKEN
-
 # Build the documentation
 RUN npm run docs:build
 

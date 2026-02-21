@@ -1,18 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { readdirSync } from 'fs'
-import { resolve } from 'path'
-
-function getReleaseItems() {
-  try {
-    return readdirSync(resolve('releases'))
-      .filter(f => f.endsWith('.md'))
-      .map(f => f.replace('.md', ''))
-      .sort((a, b) => b.localeCompare(a, undefined, { numeric: true, sensitivity: 'base' }))
-      .map(v => ({ text: v, link: `/releases/${v}` }))
-  } catch {
-    return []
-  }
-}
 
 export default defineConfig({
   title: "Octrafic Documentation",
@@ -55,7 +41,18 @@ export default defineConfig({
       },
       {
         text: 'Release Notes',
-        items: getReleaseItems()
+        items: [
+          { text: 'v0.4.1', link: '/releases/v0.4.1' },
+          { text: 'v0.4.0', link: '/releases/v0.4.0' },
+          { text: 'v0.3.4', link: '/releases/v0.3.4' },
+          { text: 'v0.3.3', link: '/releases/v0.3.3' },
+          { text: 'v0.3.2', link: '/releases/v0.3.2' },
+          { text: 'v0.3.1', link: '/releases/v0.3.1' },
+          { text: 'v0.3.0', link: '/releases/v0.3.0' },
+          { text: 'v0.2.1', link: '/releases/v0.2.1' },
+          { text: 'v0.2.0', link: '/releases/v0.2.0' },
+          { text: 'v0.1.0', link: '/releases/v0.1.0' }
+        ]
       }
     ],
 
