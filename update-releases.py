@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-Updates release notes and sidebar in octrafic_docs from GitHub releases.
-Uses gh CLI - make sure you're authenticated: gh auth login
-
-Usage: python update-releases.py
-"""
-
 import subprocess
 import json
 import os
