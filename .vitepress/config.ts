@@ -28,15 +28,32 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Guides',
+        text: 'Features',
         items: [
           { text: 'Chat Features', link: '/guides/chat-features' },
           { text: 'Project Management', link: '/guides/project-management' },
-          { text: 'Providers', link: '/guides/providers' },
-          { text: 'Authentication', link: '/guides/authentication' },
           { text: 'PDF Reports', link: '/guides/reports' },
-          { text: 'Exporting Tests', link: '/guides/exports' },
+          { text: 'Exporting Tests', link: '/guides/exports' }
+        ]
+      },
+      {
+        text: 'Configuration',
+        items: [
+          { text: 'Providers', link: '/guides/providers' },
+          { text: 'Authentication', link: '/guides/authentication' }
+        ]
+      },
+      {
+        text: 'Integration',
+        items: [
           { text: 'Headless Mode', link: '/guides/headless' }
+        ]
+      },
+      {
+        text: 'Reference',
+        items: [
+          { text: 'Environment Variables', link: '/reference/environment-variables' },
+          { text: 'Troubleshooting', link: '/guides/troubleshooting' }
         ]
       },
       { text: 'Release Notes', link: '/releases' }
