@@ -39,21 +39,7 @@ export default defineConfig({
           { text: 'Headless Mode', link: '/guides/headless' }
         ]
       },
-      {
-        text: 'Release Notes',
-        items: [
-          { text: 'v0.4.1', link: '/releases/v0.4.1' },
-          { text: 'v0.4.0', link: '/releases/v0.4.0' },
-          { text: 'v0.3.4', link: '/releases/v0.3.4' },
-          { text: 'v0.3.3', link: '/releases/v0.3.3' },
-          { text: 'v0.3.2', link: '/releases/v0.3.2' },
-          { text: 'v0.3.1', link: '/releases/v0.3.1' },
-          { text: 'v0.3.0', link: '/releases/v0.3.0' },
-          { text: 'v0.2.1', link: '/releases/v0.2.1' },
-          { text: 'v0.2.0', link: '/releases/v0.2.0' },
-          { text: 'v0.1.0', link: '/releases/v0.1.0' }
-        ]
-      }
+      { text: 'Release Notes', link: '/releases' }
     ],
 
     socialLinks: [
