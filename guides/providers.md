@@ -26,6 +26,17 @@ ollama pull llama3.1
 octrafic --onboarding   # select Ollama
 ```
 
+## Custom (OpenAI-compatible)
+
+Any API that follows the OpenAI chat completions format is supported. This covers providers like Groq, Mistral, DeepSeek, Together AI, and others.
+
+Select **Custom (OpenAI-compatible)** during onboarding, then enter:
+
+- **Base URL** — the API root without `/v1`, e.g. `https://api.groq.com/openai`
+- **API key** — optional, leave empty if the endpoint requires no auth
+
+Octrafic will fetch the model list automatically. If that fails (some providers don't expose `/v1/models`), you can type the model name manually.
+
 ## Configuration
 
 Settings are stored in `~/.octrafic/config.json`. To switch provider, run `octrafic --onboarding`.
