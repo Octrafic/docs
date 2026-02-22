@@ -9,6 +9,7 @@ Octrafic supports cloud and local AI providers. Choose one during first launch o
 | **Claude (Anthropic)** | [console.anthropic.com](https://console.anthropic.com) |
 | **OpenRouter** | [openrouter.ai/keys](https://openrouter.ai/keys) |
 | **OpenAI** | [platform.openai.com](https://platform.openai.com) |
+| **Google Gemini** | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
 
 ## Local
 
