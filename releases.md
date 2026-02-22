@@ -1,5 +1,14 @@
 # Release Notes
 
+## v0.4.2
+
+## Features
+
+* feat: add Google Gemini provider (#70)
+* feat: add custom OpenAI-compatible provider (#66)
+
+---
+
 ## v0.4.1
 
 ## Features
