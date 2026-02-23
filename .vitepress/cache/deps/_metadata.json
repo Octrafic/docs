@@ -1,35 +1,56 @@
 {
-  "hash": "d2549661",
-  "configHash": "8aea3f12",
+  "hash": "12157d39",
+  "configHash": "b49cdf02",
   "lockfileHash": "d1af62de",
-  "browserHash": "c046ea1e",
+  "browserHash": "cba4003d",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "eec83ad4",
+      "fileHash": "a265f04f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "df270f59",
+      "fileHash": "5a6f5c69",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/dist/index.js",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "166110d8",
+      "fileHash": "44446b46",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/@vueuse/integrations/dist/useFocusTrap.js",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "2f1c2fb7",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "cfbaa199",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "1c6b2a36",
       "needsInterop": false
     },
     "lucide-vue-next": {
       "src": "../../../node_modules/lucide-vue-next/dist/esm/lucide-vue-next.js",
       "file": "lucide-vue-next.js",
-      "fileHash": "820a7142",
+      "fileHash": "77888b90",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-N3U7WZYM": {
+      "file": "chunk-N3U7WZYM.js"
+    },
     "chunk-IJXOVSZR": {
       "file": "chunk-IJXOVSZR.js"
     },

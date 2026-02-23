@@ -30,8 +30,13 @@ export default defineConfig({
     logo: 'https://octrafic.com/octrafic-logo.png',
     siteTitle: 'Octrafic',
 
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Guide', link: '/getting-started/introduction' },
+      { text: 'Reference', link: '/reference/cli' },
       { text: 'GitHub', link: 'https://github.com/Octrafic/octrafic-cli' }
     ],
 
@@ -68,6 +73,7 @@ export default defineConfig({
       {
         text: 'Reference',
         items: [
+          { text: 'CLI Reference', link: '/reference/cli' },
           { text: 'Environment Variables', link: '/reference/environment-variables' },
           { text: 'Troubleshooting', link: '/guides/troubleshooting' }
         ]

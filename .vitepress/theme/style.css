@@ -4,64 +4,52 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* Light mode (default) */
 :root {
-  /* Background colors */
   --vp-c-bg: #ffffff;
   --vp-c-bg-soft: #f8fafc;
   --vp-c-bg-mute: #f1f5f9;
 
-  /* Text colors */
   --vp-c-text-1: rgba(15, 23, 42, 0.95);
   --vp-c-text-2: rgba(15, 23, 42, 0.75);
   --vp-c-text-3: rgba(15, 23, 42, 0.55);
 
-  /* Border colors */
   --vp-c-border: rgba(56, 189, 248, 0.2);
   --vp-c-divider: rgba(56, 189, 248, 0.1);
 
-  /* Sky Blue brand colors */
   --vp-c-brand-1: #0284C7;
   --vp-c-brand-2: #0EA5E9;
   --vp-c-brand-3: #38BDF8;
   --vp-c-brand-soft: rgba(56, 189, 248, 0.1);
 
-  /* Gray colors */
   --vp-c-gray-1: rgba(15, 23, 42, 0.95);
   --vp-c-gray-2: rgba(15, 23, 42, 0.75);
   --vp-c-gray-3: rgba(15, 23, 42, 0.55);
   --vp-c-gray-soft: rgba(15, 23, 42, 0.06);
 
-  /* Default colors */
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  /* Tip colors */
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-3: var(--vp-c-brand-3);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  /* Warning colors */
   --vp-c-warning-1: #D97706;
   --vp-c-warning-2: #F59E0B;
   --vp-c-warning-3: #FBBF24;
   --vp-c-warning-soft: rgba(251, 191, 36, 0.15);
 
-  /* Danger colors */
   --vp-c-danger-1: #DC2626;
   --vp-c-danger-2: #EF4444;
   --vp-c-danger-3: #F87171;
   --vp-c-danger-soft: rgba(239, 68, 68, 0.1);
 
-  /* Typography */
   --vp-font-family-base: 'Inter', sans-serif;
   --vp-font-family-heading: 'Space Grotesk', sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', monospace;
 
-  /* Button */
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: #ffffff;
   --vp-button-brand-bg: linear-gradient(135deg, #38BDF8, #0EA5E9);
@@ -72,12 +60,10 @@
   --vp-button-brand-active-text: #ffffff;
   --vp-button-brand-active-bg: linear-gradient(135deg, #0284C7, #0369A1);
 
-  /* Home */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(135deg, #0284C7 0%, #0EA5E9 50%, #38BDF8 100%);
   --vp-home-hero-image-background-image: none;
 
-  /* Custom blocks */
   --vp-custom-block-tip-border: transparent;
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
@@ -92,64 +78,52 @@
   --vp-custom-block-danger-code-bg: rgba(239, 68, 68, 0.08);
 }
 
-/* Dark mode */
 .dark {
-  /* Background colors */
   --vp-c-bg: #0a0a0a;
   --vp-c-bg-soft: #121212;
   --vp-c-bg-mute: #1a1a1a;
 
-  /* Text colors */
   --vp-c-text-1: rgba(255, 255, 255, 0.9);
   --vp-c-text-2: rgba(255, 255, 255, 0.6);
   --vp-c-text-3: rgba(255, 255, 255, 0.4);
 
-  /* Border colors */
   --vp-c-border: rgba(255, 255, 255, 0.1);
   --vp-c-divider: rgba(255, 255, 255, 0.06);
 
-  /* Sky Blue brand colors */
   --vp-c-brand-1: #7DD3FC;
   --vp-c-brand-2: #38BDF8;
   --vp-c-brand-3: #0EA5E9;
   --vp-c-brand-soft: rgba(56, 189, 248, 0.1);
 
-  /* Gray colors */
   --vp-c-gray-1: rgba(255, 255, 255, 0.9);
   --vp-c-gray-2: rgba(255, 255, 255, 0.6);
   --vp-c-gray-3: rgba(255, 255, 255, 0.4);
   --vp-c-gray-soft: rgba(255, 255, 255, 0.06);
 
-  /* Default colors */
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  /* Tip colors */
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-3: var(--vp-c-brand-3);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  /* Warning colors */
   --vp-c-warning-1: #FCD34D;
   --vp-c-warning-2: #FBBF24;
   --vp-c-warning-3: #F59E0B;
   --vp-c-warning-soft: rgba(251, 191, 36, 0.15);
 
-  /* Danger colors */
   --vp-c-danger-1: #F87171;
   --vp-c-danger-2: #EF4444;
   --vp-c-danger-3: #DC2626;
   --vp-c-danger-soft: rgba(239, 68, 68, 0.15);
 
-  /* Typography */
   --vp-font-family-base: 'Inter', sans-serif;
   --vp-font-family-heading: 'Space Grotesk', sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', monospace;
 
-  /* Button */
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: #ffffff;
   --vp-button-brand-bg: linear-gradient(135deg, #38BDF8, #0EA5E9);
@@ -160,12 +134,10 @@
   --vp-button-brand-active-text: #ffffff;
   --vp-button-brand-active-bg: linear-gradient(135deg, #0284C7, #0369A1);
 
-  /* Home */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(135deg, #38BDF8 0%, #7DD3FC 50%, #BAE6FD 100%);
   --vp-home-hero-image-background-image: none;
 
-  /* Custom blocks */
   --vp-custom-block-tip-border: transparent;
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
@@ -180,18 +152,20 @@
   --vp-custom-block-danger-code-bg: rgba(239, 68, 68, 0.1);
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(56, 189, 248, 0.2);
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(56, 189, 248, 0.4);
 }
@@ -200,14 +174,27 @@
   background: transparent;
 }
 
-/* Apply heading font to all headings */
-h1, h2, h3, h4, h5, h6,
-.VPDoc h1, .VPDoc h2, .VPDoc h3, .VPDoc h4, .VPDoc h5, .VPDoc h6,
-.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.VPDoc h1,
+.VPDoc h2,
+.VPDoc h3,
+.VPDoc h4,
+.VPDoc h5,
+.VPDoc h6,
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
   font-family: var(--vp-font-family-heading) !important;
 }
 
-/* Nav title in Space Mono */
 .VPNavBarTitle {
   display: flex !important;
   align-items: center;
@@ -227,7 +214,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Home page */
 .home-wrapper {
   position: relative;
   min-height: calc(100vh - 64px);
@@ -268,10 +254,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .home-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  max-width: 520px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 720px;
+}
+
+.home-card-full {
+  grid-column: 1 / -1;
 }
 
 .home-card {
@@ -316,6 +306,10 @@ h1, h2, h3, h4, h5, h6,
   .home-tagline {
     font-size: 14px;
     margin-bottom: 32px;
+  }
+
+  .home-cards {
+    grid-template-columns: 1fr;
   }
 
   .home-card {
