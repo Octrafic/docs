@@ -71,8 +71,7 @@ export default defineConfig({
           { text: 'Environment Variables', link: '/reference/environment-variables' },
           { text: 'Troubleshooting', link: '/guides/troubleshooting' }
         ]
-      },
-      { text: 'Release Notes', link: '/releases' }
+      }
     ],
 
     socialLinks: [
