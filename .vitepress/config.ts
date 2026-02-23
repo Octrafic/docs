@@ -4,6 +4,10 @@ export default defineConfig({
   title: "Octrafic Docs",
   description: "Octrafic is an open source AI-powered CLI tool for automated API testing. Test any HTTP API using natural language — no code required.",
 
+  sitemap: {
+    hostname: 'https://docs.octrafic.com',
+  },
+
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
