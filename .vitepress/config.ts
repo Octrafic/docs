@@ -1,8 +1,20 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Octrafic Documentation",
-  description: "AI-powered CLI tool for API testing and exploration",
+  title: "Octrafic Docs",
+  description: "Octrafic is an open source AI-powered CLI tool for automated API testing. Test any HTTP API using natural language — no code required.",
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:site_name', content: 'Octrafic Docs' }],
+    ['meta', { name: 'og:image', content: 'https://octrafic.com/og-image.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://octrafic.com/og-image.png' }],
+  ],
 
   vite: {
     server: {

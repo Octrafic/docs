@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Octrafic Docs
+description: Official documentation for Octrafic — open source AI-powered CLI tool for automated API testing.
 ---
 
 <div class="home-wrapper">

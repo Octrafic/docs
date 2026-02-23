@@ -1,3 +1,8 @@
+---
+title: Introduction — Octrafic Docs
+description: Learn what Octrafic is and how AI-powered CLI API testing works.
+---
+
 # Introduction
 
 ## One tool for every API you test

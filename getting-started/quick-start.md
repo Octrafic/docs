@@ -1,3 +1,8 @@
+---
+title: Quick Start — Octrafic Docs
+description: Install Octrafic and run your first AI-powered API test in minutes.
+---
+
 # Quick Start
 
 This tutorial will help you get started with Octrafic CLI as quickly as possible.
