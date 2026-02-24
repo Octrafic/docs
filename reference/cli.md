@@ -46,6 +46,27 @@ octrafic test [flags]
 - `0`: All tests passed successfully.
 - `1`: One or more tests failed, or an error occurred during execution.
 
+### `octrafic scan`
+
+Analyzes a local codebase and automatically generates an OpenAPI 3.1 specification file using the OOPS Pipeline. Runs non-interactively.
+
+```bash
+octrafic scan [flags]
+```
+
+**Flags for `scan`:**
+
+| Flag | Short | Description | Example |
+|------|-------|-------------|---------|
+| `--path` | `-p` | Path to the root of the project to scan | `-p ./backend` |
+| `--out`  | `-o` | Output path for the generated specification | `-o api-spec.yaml` |
+
+*Note: Requires LLM configuration (either via interactive setup or `OCTRAFIC_PROVIDER`, `OCTRAFIC_API_KEY`, and `OCTRAFIC_MODEL` environment variables).*
+
+**Exit Codes:**
+- `0`: Scan successful, specification generated.
+- `1`: Scan failed, or invalid configuration provided.
+
 ## In-Session Commands (Slash Commands)
 
 When using the interactive TUI (Terminal User Interface), you can use these commands by typing them in the chat prompt.

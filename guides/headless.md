@@ -26,6 +26,18 @@ octrafic test \
 
 The AI generates a test plan from the spec and executes it automatically.
 
+## Important: Configuration
+
+Because `octrafic test` runs without a UI, **it will not prompt** for the initial setup wizard (onboarding). If you run it on a fresh machine (like a GitHub Actions runner) without configuration, it will fail immediately.
+
+To fix this, provide environment variables:
+```bash
+export OCTRAFIC_PROVIDER=claude
+export OCTRAFIC_API_KEY=your_key_here
+export OCTRAFIC_MODEL=claude-haiku-4.5
+```
+Or run `octrafic` interactively once to build the `~/.octrafic/config.json` file. See [Providers](./providers.md) for more details.
+
 ## Flags
 
 | Flag | Short | Description |

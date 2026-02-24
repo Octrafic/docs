@@ -40,4 +40,23 @@ Octrafic will fetch the model list automatically. If that fails (some providers 
 
 ## Configuration
 
-Settings are stored in `~/.octrafic/config.json`. To switch provider, run `octrafic --onboarding`.
+Settings are stored in `~/.octrafic/config.json`. To switch provider interactively, run `octrafic --onboarding`.
+
+### Environment Variables
+
+For headless environments like CI/CD pipelines, you can bypass the interactive setup and `config.json` by providing environment variables:
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `OCTRAFIC_PROVIDER` | The LLM provider to use | `claude`, `openai`, `gemini`, `ollama`, `custom` |
+| `OCTRAFIC_API_KEY` | Provider API key (if required) | `sk-ant-api03...` |
+| `OCTRAFIC_BASE_URL` | Custom provider endpoint (needed for local & custom) | `https://api.groq.com/openai` |
+| `OCTRAFIC_MODEL` | Specific model to request | `claude-haiku-4.5` |
+
+**Example for a Custom (OpenAI-compatible) provider:**
+```bash
+export OCTRAFIC_PROVIDER=custom
+export OCTRAFIC_BASE_URL=https://api.groq.com/openai
+export OCTRAFIC_API_KEY=gsk_your_groq_key
+export OCTRAFIC_MODEL=llama3-70b-8192
+```

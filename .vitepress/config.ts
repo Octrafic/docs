@@ -52,9 +52,11 @@ export default defineConfig({
         text: 'Features',
         items: [
           { text: 'Chat Features', link: '/guides/chat-features' },
+          { text: 'OpenAPI Scanner', link: '/guides/scanner' },
           { text: 'Project Management', link: '/guides/project-management' },
           { text: 'PDF Reports', link: '/guides/reports' },
-          { text: 'Exporting Tests', link: '/guides/exports' }
+          { text: 'Exporting Tests', link: '/guides/exports' },
+          { text: 'Headless Mode', link: '/guides/headless' }
         ]
       },
       {
@@ -62,12 +64,6 @@ export default defineConfig({
         items: [
           { text: 'Providers', link: '/guides/providers' },
           { text: 'Authentication', link: '/guides/authentication' }
-        ]
-      },
-      {
-        text: 'Integration',
-        items: [
-          { text: 'Headless Mode', link: '/guides/headless' }
         ]
       },
       {

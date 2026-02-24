@@ -57,6 +57,9 @@ There are three ways to start Octrafic:
 
 ### Quick test (temporary session)
 
+> [!TIP]
+> **No OpenAPI spec?** No problem. Use the built-in [OOPS Auto-Scanner](../guides/scanner.md) to generate `api-spec.json` directly from your source code using `octrafic scan -p . -o api-spec.json`.
+
 For one-time testing without saving:
 
 ```bash

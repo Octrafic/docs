@@ -15,6 +15,8 @@ Octrafic is an AI-powered CLI tool for API testing and exploration. It understan
 
 - **Explore unfamiliar APIs** - Octrafic can read OpenAPI specs, Markdown docs, or live endpoints to explain how an API works, what parameters it accepts, and what responses to expect
 
+- **Generate OpenAPI specifications** - Don't have a spec file? Octrafic can scan your project's source code to automatically detect your framework, routing logic, and endpoints, creating a comprehensive OpenAPI 3.1 file for you
+
 - **Generate test suites** - Octrafic automatically creates comprehensive tests for endpoints, authentication flows, error handling, and data validation based on your API specification
 
 - **Automate repetitive work** - Run routine API checks, regression tests, and monitoring workflows so you can focus on building features instead of manual testing
