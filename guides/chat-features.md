@@ -72,6 +72,9 @@ Commands help you manage your session and access specific features.
 | `/clear` | Clear the conversation history in current session |
 | `/help` | Show available commands and usage tips |
 | `/save <name>` | Save the current temporary project with a name |
+| `/url <new-url>` | Change the base URL of the tested API |
+| `/spec <path>` | Load a new API specification from disk |
+| `/name <new-name>` | Rename the currently used project |
 | `/auto` | Toggle automatic test execution mode |
 | `/auth` | Open authentication wizard to configure API credentials |
 | `/models` | Select or change the AI model |

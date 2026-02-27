@@ -75,6 +75,9 @@ When using the interactive TUI (Terminal User Interface), you can use these comm
 |---------|-------------|
 | `/help` | List all available slash commands and keybindings |
 | `/save <name>`| Save the current temporary project under a name |
+| `/url <new-url>`| Change the base URL of the tested API |
+| `/spec <path>`| Load a new API specification from disk |
+| `/name <new-name>`| Rename the currently used project |
 | `/auto` | Toggle Auto Mode (skips manual confirmation for requests) |
 | `/auth` | Open the authentication wizard to update API credentials |
 | `/models` | Switch the AI model or provider |
