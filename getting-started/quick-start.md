@@ -9,25 +9,21 @@ This tutorial will help you get started with Octrafic CLI as quickly as possible
 
 ## Step 1: Install Octrafic
 
-Choose the installation method for your operating system:
+The quickest way to install:
 
-### Linux/macOS
+::: code-group
 
-```bash
+```bash [Linux/macOS]
 curl -fsSL https://octrafic.com/install.sh | sh
 ```
 
-### Windows
-
-```powershell
+```powershell [Windows]
 iex (irm https://octrafic.com/install.ps1)
 ```
 
-### Using Go
+:::
 
-```bash
-go install github.com/Octrafic/octrafic-cli@latest
-```
+For all installation options (Homebrew, AUR, DEB/RPM, Go, manual download), see the [Installation](./installation.md) page.
 
 ## Step 2: First launch setup
 
